@@ -13,7 +13,7 @@ function updateObjectWithKeyAndValue(obj, key, value) {
 updateObjectWithKeyAndValue(recipes, sugar, '2.5 cups');
 
 function destructivelyUpdateObjectWithKeyAndValue(recipes, key, value) {
-  recipe[key] = value;
+  recipes[key] = value;
   return recipes;
 }
 
