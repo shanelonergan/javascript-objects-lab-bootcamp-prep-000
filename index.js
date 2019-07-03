@@ -1,4 +1,4 @@
-var recipe = {
+var recipes = {
   eggs: 3,
   sugur: '2 cups',
   butter: '2 sticks',
@@ -10,11 +10,11 @@ function updateObjectWithKeyAndValue(obj, key, value) {
   return Object.assign({}, obj, { [key]: value });
 }
 
-updateObjectWithKeyAndValue(recipe, sugar, '2.5 cups');
+updateObjectWithKeyAndValue(recipes, sugar, '2.5 cups');
 
-function destructivelyUpdateObjectWithKeyAndValue(recipe, key, value) {
-  recipe[key] = [value];
-  return recipe;
+function destructivelyUpdateObjectWithKeyAndValue(recipes, key, value) {
+  recipe.key. = [value];
+  return recipes;
 }
 
-destructivelyUpdateObjectWithKeyAndValue(recipe, eggs, '4');
+destructivelyUpdateObjectWithKeyAndValue(recipes, eggs, '4');
