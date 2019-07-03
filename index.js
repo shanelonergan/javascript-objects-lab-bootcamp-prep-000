@@ -25,4 +25,3 @@ function deleteFromObjectByKey(object, key) {
 }
 
 deleteFromObjectByKey(recipes, eggs);
-
