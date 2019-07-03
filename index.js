@@ -26,3 +26,8 @@ function deleteFromObjectByKey(object, key) {
 }
 
 deleteFromObjectByKey(recipes, eggs);
+
+function destructivelyDeleteFromObjectByKey(object, Key) {
+  delete object[key];
+  return object;
+}
