@@ -17,4 +17,4 @@ function destructivelyUpdateObjectWithKeyAndValue(obj, key, value) {
   return obj;
 }
 
-destructivelyUpdateObjectWithKeyAndValue(recipe, key, value)
+destructivelyUpdateObjectWithKeyAndValue(recipe, eggs, 4);
