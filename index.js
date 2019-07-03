@@ -7,7 +7,14 @@ var recipe = {
 
 function updateObjectWithKeyAndValue(obj, key, value) {
 
-  return Object.assign({}, obj, { [key]: value }) 
+  return Object.assign({}, obj, { [key]: value }); 
 }
 
-updateObjectWithKeyAndValue(recipe, sugar, '2.5 cups')
+updateObjectWithKeyAndValue(recipe, sugar, '2.5 cups');
+
+function destructivelyUpdateObjectWithKeyAndValue(obj, key, value) {
+  obj.key = [value];
+  return obj;
+}
+
+destructivelyUpdateObjectWithKeyAndValue(recipe, key, value)
