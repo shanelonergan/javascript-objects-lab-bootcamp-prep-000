@@ -32,4 +32,4 @@ function destructivelyDeleteFromObjectByKey(object, key) {
   return object;
 }
 
-destructivelyDeleteFromObjectByKey(recipes, eggs)
+destructivelyDeleteFromObjectByKey(recipes, eggs);
