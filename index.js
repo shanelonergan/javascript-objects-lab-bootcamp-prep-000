@@ -1,8 +1,8 @@
 var recipe = {
-  eggs: 3
-  sugur: '2 cups'
-  butter: '2 sticks'
-  flour: '3 cups'
+  eggs: 3,
+  sugur: '2 cups',
+  butter: '2 sticks',
+  flour: '3 cups',
 }
 
 function updateObjectWithKeyAndValue(obj, key, value) {
