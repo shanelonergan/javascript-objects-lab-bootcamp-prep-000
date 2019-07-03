@@ -3,7 +3,7 @@ var recipe = {
   sugur: '2 cups',
   butter: '2 sticks',
   flour: '3 cups',
-}
+};
 
 function updateObjectWithKeyAndValue(obj, key, value) {
 
