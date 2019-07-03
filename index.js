@@ -12,9 +12,9 @@ function updateObjectWithKeyAndValue(obj, key, value) {
 
 updateObjectWithKeyAndValue(recipe, sugar, '2.5 cups');
 
-function destructivelyUpdateObjectWithKeyAndValue(obj, key, value) {
-  obj[key] = [value];
-  return obj;
+function destructivelyUpdateObjectWithKeyAndValue(recipe, key, value) {
+  recipe[key] = [value];
+  return recipe;
 }
 
 destructivelyUpdateObjectWithKeyAndValue(recipe, eggs, '4');
